@@ -1,0 +1,2 @@
+# Density-Based-Traffic-Signal-Control-Using-Image-Processing
+Our GitHub repository hosts the source code and documentation for a groundbreaking project that controls traffic signals based on image processing techniques. Instead of relying on traditional timers or electronic sensors, our system detects vehicles using cameras and adjusts traffic lights accordingly. Here's a detailed overview of our project:
