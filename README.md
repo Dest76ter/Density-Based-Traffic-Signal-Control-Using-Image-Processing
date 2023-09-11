@@ -31,5 +31,9 @@ Our system prioritizes traffic signals based on vehicle density. Lanes with the 
 - **Safety Enhancement**: Eliminates the need for traffic personnel at junctions and reduces accidents.
 Implementation:
 
-
 The project is implemented in Python, leveraging the power of image processing and video analysis. The rotating camera provides a 180-degree view, allowing comprehensive coverage of traffic lanes. The system dynamically adjusts traffic signals, making it an invaluable tool for traffic analysis and performance enhancement.
+
+
+### Acknowledgments
+
+This project builds upon the work of Pysource(https://www.youtube.com/@pysource-com) for the initial code inspiration and guidance. I am grateful for his valuable contributions to the community.
