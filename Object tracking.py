@@ -171,9 +171,8 @@ def motor_control():
     while ser.in_waiting == 0:
         pass
 
-Detect_vehicles(50, 1)
 
-""" while True:
+while True:
     while ser.in_waiting == 0:
         pass
     # print(str(ser.readline(),'utf-8').strip('\r\n') == "Capture")
@@ -228,4 +227,3 @@ Detect_vehicles(50, 1)
                 Send_data_to_arduino(i)
 
             time.sleep(1)
- """
