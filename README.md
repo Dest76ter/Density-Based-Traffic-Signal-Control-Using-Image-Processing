@@ -3,6 +3,15 @@
 ### Project Description:
 Our GitHub repository hosts the source code and documentation for a groundbreaking project that controls traffic signals based on image processing techniques. Instead of relying on traditional timers or electronic sensors, our system detects vehicles using cameras and adjusts traffic lights accordingly. Here's a detailed overview of our project:
 
+## Disclaimer: Improved Performance with OpenCV CUDA
+
+For enhanced performance and real-time processing, we recommend using OpenCV with CUDA support. OpenCV CUDA harnesses the power of NVIDIA GPUs to accelerate image processing tasks.
+
+To take full advantage of GPU acceleration, make sure you have OpenCV built with CUDA support and have compatible NVIDIA drivers installed on your system. You can check OpenCV's official documentation for instructions on building OpenCV with CUDA: [OpenCV CUDA Installation Guide](https://docs.opencv.org/master/d5/de5/tutorial_py_setup_in_windows.html).
+
+By using OpenCV with CUDA, you can expect significant speed improvements in tasks such as image detection and processing, making this project even more efficient.
+
+
 ## Project Overview:
 ### Vehicle Detection and Traffic Signal Control
 We employ image-processing algorithms to detect vehicles. A single camera mounted on a motor captures continuous video footage of lanes, covering angles from 0 to 180 degrees. Each video frame is analyzed, and the system calculates the total number of vehicles present.
